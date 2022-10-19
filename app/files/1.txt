@@ -1,0 +1,30 @@
+var str = ".aatrox {filter: grayscale(40%);}\n.ahri {filter: grayscale(100%);}\n.akali {filter: grayscale(23%);\n.akshan {filter: grayscale(11%);}\n.alistar {filter: grayscale(0%);}\n.amumu {filter: grayscale(0%);}\n.anivia {filter: grayscale(0%);}\n.annie {filter: grayscale(0%);}\n.aphelios {filter: grayscale(0%);}\n.ashe {filter: grayscale(0%);}\n.aurelion_sol {filter: grayscale(0%);}}";
+console.log(str);
+let id = "ahri";
+console.log("Champname: " + id);
+
+let search = "." + id + " {filter: grayscale";
+//console.log(search);
+
+let res = str.split(("?=()|(?=\n"));
+//console.log(res);
+let index = res.indexOf(search);
+console.log("Champindex: " + index);
+let valueIndex = res.indexOf(search) + 1;
+let value = res[valueIndex]
+
+console.log("Champwert Alt: " + value);
+
+if (value === "0"){
+    value = "100"
+}else{value = "0"};
+
+console.log("Champwert Neu: " + value);
+
+console.log("Wertindex: " + valueIndex);
+
+res[valueIndex] = value;
+console.log(res);
+
+let newRes = res.join();
+console.log(".... " + newRes);
