@@ -1,17 +1,15 @@
-# neutralinojs-minimal
-
-The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/how-to/use-a-frontend-library).
-
-## Contributors
-
-<a href="https://github.com/neutralinojs/neutralinojs-minimal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=neutralinojs/neutralinojs-minimal" />
-</a>
-
-## License
-
-[MIT](LICENSE)
-
-## Icon credits
-
-- `trayIcon.png` - Made by [Freepik](https://www.freepik.com) and downloaded from [Flaticon](https://www.flaticon.com)
+# Usage
+You'll need npm and [node](https://nodejs.org/en/download/). Once you install them you can check if everything works okay by typing in these commands in your terminal. 
+```
+npm -v
+node -v
+```
+If you were able to run those three commands without any errors, you can continue. 
+```
+npm  install -g @neutralinojs/neu
+```
+To run the program, either the .exe file or the following command line can be run. 
+```
+cd [File Path]/jack-of-all-champs-master
+neu run
+```
