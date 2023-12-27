@@ -4,7 +4,7 @@ You'll need npm and [node](https://nodejs.org/en/download/). Once you install th
 npm -v
 node -v
 ```
-If you were able to run those three commands without any errors, you can continue. 
+If you were able to run those two commands without any errors, you can continue. 
 ```
 npm  install -g @neutralinojs/neu
 ```
